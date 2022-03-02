@@ -1,0 +1,51 @@
+{
+  "name": "starlink",
+  "version": "0.1.0",
+  "private": true,
+  // configure development - server
+  "proxy": "https://api.n2yo.com",    
+  "dependencies": {
+    "@testing-library/dom": ">=5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "3",
+    "axios": "^0.26.0",
+    "cd": "^0.3.3",
+    "create-react-app": "latest",
+    "d3-geo": "^3.0.1",
+    "d3-geo-projection": "^4.0.0",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.0.0",
+    "d3-selection": "^3.0.0",
+    "d3-time-format": "^4.1.0",
+    "npx": "^10.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "starlink": "^0.0.1",
+    "topojson-client": "^3.1.0",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
