@@ -21,4 +21,6 @@ To visualize the full functionality of the program, run the program locally thro
       IX. "npm install --save d3-scale-chromatic"
   5. locate the starlink folder and use "npm start" to open the program
 
+Alternatively, view the preliminary interface design through stackblitz using the following link. 
+
 [Edit on StackBlitz](https://stackblitz.com/edit/react-starlink-eric-li)
